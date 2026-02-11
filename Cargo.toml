@@ -1,0 +1,11 @@
+[package]
+name = "ttp_threshold"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "ttp_threshold"
+path = "src/main.rs"
